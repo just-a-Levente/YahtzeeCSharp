@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\1_oldal.png" />
+    <None Remove="Assets\2_oldal.png" />
+    <None Remove="Assets\3_oldal.png" />
+    <None Remove="Assets\4_oldal.png" />
+    <None Remove="Assets\5_oldal.png" />
+    <None Remove="Assets\6_oldal.png" />
+    <None Remove="Assets\blank.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\1_oldal.png" />
+    <Resource Include="Assets\2_oldal.png" />
+    <Resource Include="Assets\3_oldal.png" />
+    <Resource Include="Assets\4_oldal.png" />
+    <Resource Include="Assets\5_oldal.png" />
+    <Resource Include="Assets\6_oldal.png" />
+    <Resource Include="Assets\blank.png" />
+  </ItemGroup>
+
+</Project>
